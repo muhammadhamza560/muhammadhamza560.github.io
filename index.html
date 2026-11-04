@@ -5,483 +5,1101 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- EDIT: Browser tab title -->
-    <title>Muhammad Hamza | Creative Technologist & Software Engineering</title>
+    <title>Muhammad Hamza | Creative Technologist & Software Engineer</title>
 
-    <!-- SEO metadata -->
     <meta name="description"
-        content="Muhammad Hamza — TikTok Automation Specialist, AI Video Creator, Graphic Designer, CapCut Editor, AI Prompt Engineer and Software Engineering student.">
-    <meta name="author" content="Muhammad Hamza">
-    <meta name="theme-color" content="#090b12">
+        content="Muhammad Hamza is a Creative Technologist, Software Engineering student, AI Video Creator, Graphic Designer, Videographer, and Founder of MH Creative Studio in Peshawar, Pakistan.">
 
-    <!-- Social sharing metadata -->
-    <meta property="og:title" content="Muhammad Hamza | Portfolio">
+    <meta name="keywords"
+        content="Muhammad Hamza, Creative Technologist, Software Engineering, AI Video Creator, Graphic Designer, Video Editor, Web Developer, MH Creative Studio">
+
+    <meta name="author" content="Muhammad Hamza">
+    <meta name="theme-color" content="#09090f">
+
+    <meta property="og:title" content="Muhammad Hamza | Personal Portfolio">
     <meta property="og:description"
-        content="Explore my creative work, professional experience, AI skills and software engineering journey.">
+        content="Explore my software projects, creative work, AI expertise and professional journey.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://muhammadhamza560.github.io/">
 
-    <!-- Favicon and stylesheet -->
     <link rel="icon" type="image/png" href="favicon.png">
     <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <!-- Navigation -->
-    <header class="navbar">
-        <a class="brand" href="#home">MH<span>.</span></a>
 
-        <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu" aria-expanded="false">
-            ☰
+    <!-- BACKGROUND -->
+    <div class="background-glow"></div>
+    <div class="background-grid"></div>
+
+    <!-- NAVIGATION -->
+    <header class="navbar" id="navbar">
+
+        <a href="#home" class="brand">
+            MH<span>.</span>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu" aria-expanded="false"
+            aria-controls="navLinks">
+            <span></span>
+            <span></span>
+            <span></span>
         </button>
 
         <nav class="nav-links" id="navLinks">
+
             <a href="#home">Home</a>
             <a href="#about">About</a>
             <a href="#experience">Experience</a>
             <a href="#skills">Skills</a>
             <a href="#projects">Projects</a>
+            <a href="#video-projects">Creative Work</a>
             <a href="#education">Education</a>
-            <a href="#contact" class="nav-contact">Contact Me ↗</a>
+
+            <a href="#contact" class="nav-contact">
+                Let's Talk <span>↗</span>
+            </a>
+
         </nav>
     </header>
 
+
     <main>
-        <!-- HERO -->
+
+        <!-- =====================================
+             HERO SECTION
+        ====================================== -->
+
         <section class="hero section" id="home">
+
             <div class="hero-content reveal">
-                <p class="eyebrow"><span class="status-dot"></span> CREATIVE TECHNOLOGY · SOFTWARE ENGINEERING</p>
 
-                <h1>
-                    Turning Ideas Into
-                    <span class="gradient-text">Digital Experiences.</span>
-                </h1>
+                <div class="availability">
+                    <span class="availability-dot"></span>
+                    OPEN TO CREATIVE & TECH OPPORTUNITIES
+                </div>
 
-                <p class="hero-name">Hi, I'm Muhammad Hamza.</p>
-
-                <p class="hero-description">
-                    TikTok Automation Specialist, AI Video Creator, Graphic Designer,
-                    Professional Videographer, CapCut Editor and AI Prompt Engineer.
-                    I combine creative production, content research and technology
-                    to build meaningful digital experiences.
+                <p class="hero-intro">
+                    HELLO, I'M MUHAMMAD HAMZA
                 </p>
 
+                <h1>
+                    Building at the
+                    intersection of
+                    <span class="gradient-text">Creativity & Technology.</span>
+                </h1>
+
+                <p class="hero-description">
+                    I'm a Creative Technologist, Software Engineering student,
+                    AI Creator and Digital Content Professional.
+
+                    I combine software development, artificial intelligence,
+                    visual storytelling and creative problem-solving to
+                    transform ideas into meaningful digital experiences.
+                </p>
+
+                <div class="hero-specialties">
+
+                    <span>Software Engineering</span>
+                    <span>AI & Creative Technology</span>
+                    <span>Video & Visual Production</span>
+
+                </div>
+
                 <div class="hero-actions">
-                    <a href="#projects" class="btn btn-primary">Explore My Work ↗</a>
-                    <a href="#contact" class="btn btn-secondary">Let's Connect</a>
+
+                    <a href="#projects" class="btn btn-primary">
+                        Explore My Work <span>↗</span>
+                    </a>
+
+                    <a href="#contact" class="btn btn-secondary">
+                        Let's Connect
+                    </a>
+
                 </div>
 
                 <div class="hero-stats">
-                    <div>
-                        <strong>2+ Years</strong>
-                        <span>Creative Experience</span>
+
+                    <div class="stat-item">
+                        <strong>2+</strong>
+                        <span>Years Creative Experience</span>
                     </div>
-                    <div>
-                        <strong>Multiple Skills</strong>
-                        <span>Creative & Technical</span>
+
+                    <div class="stat-item">
+                        <strong>4+</strong>
+                        <span>Creative & Technical Areas</span>
                     </div>
-                    <div>
-                        <strong>MH Studio</strong>
-                        <span>Founder</span>
+
+                    <div class="stat-item">
+                        <strong>01</strong>
+                        <span>Creative Studio Founded</span>
                     </div>
+
                 </div>
+
             </div>
 
+
             <div class="hero-visual reveal">
+
+                <div class="hero-decoration"></div>
+
                 <div class="portrait-frame">
-                    <!-- Keep Profile Picture.jpg in the same folder as index.html -->
-                    <img src="Profile%20Picture.jpg" alt="Portrait of Muhammad Hamza" class="profile-image">
+
+                    <img src="Profile Picture.jpg" alt="Muhammad Hamza - Personal Portfolio" class="profile-image">
+
                 </div>
 
                 <div class="floating-card floating-top">
+
                     <span class="floating-icon">✦</span>
+
                     <div>
                         <strong>AI + Creativity</strong>
-                        <small>Ideas into visuals</small>
+                        <small>Creative Technology</small>
                     </div>
+
                 </div>
 
                 <div class="floating-card floating-bottom">
-                    <span class="floating-icon">▶</span>
+
+                    <span class="floating-icon">⌘</span>
+
                     <div>
-                        <strong>Video & Content</strong>
-                        <small>Editing · Automation</small>
+                        <strong>Building Digital Ideas</strong>
+                        <small>Software & Creative Work</small>
                     </div>
+
                 </div>
+
             </div>
+
         </section>
 
-        <!-- ABOUT -->
+
+        <!-- =====================================
+             ABOUT SECTION
+        ====================================== -->
+
         <section class="section section-border" id="about">
+
             <div class="section-heading reveal">
-                <p class="eyebrow">GET TO KNOW ME</p>
-                <h2>Creativity meets <span class="gradient-text">technology.</span></h2>
+
+                <p class="eyebrow">01 / ABOUT ME</p>
+
+                <h2>
+                    More than a title.
+                    <span class="gradient-text">A combination of skills.</span>
+                </h2>
+
+                <p class="section-description">
+                    Exploring technology, creating digital content
+                    and developing practical solutions.
+                </p>
+
             </div>
+
 
             <div class="about-grid">
+
                 <div class="about-copy reveal">
+
                     <p>
-                        I'm Muhammad Hamza, a Software Engineering student at
-                        City University of Science & Information Technology,
-                        Peshawar, with a strong interest in AI, digital content,
-                        software development and creative problem-solving.
+                        I'm Muhammad Hamza, a Software Engineering student
+                        at City University of Science & Information Technology
+                        (CUSIT), Peshawar, Pakistan.
                     </p>
+
                     <p>
-                        My practical experience includes short-form video editing,
-                        TikTok content workflows and AI-assisted graphic design.
-                        I enjoy combining creative thinking with tools and
-                        techniques that make content production more effective.
+                        My interests extend beyond traditional software
+                        development. I work across creative technology,
+                        AI-assisted content creation, graphic design,
+                        professional videography and digital advertising.
                     </p>
+
                     <p>
-                        Through MH Creative Studio, I am developing a creative
-                        brand focused on visual advertising, video content and
-                        AI-powered creative services.
+                        On the technical side, I'm developing my knowledge
+                        of software requirements engineering, web engineering,
+                        frontend development and mobile application development.
+                        I enjoy turning concepts into practical projects
+                        while continuously improving my engineering skills.
                     </p>
+
+                    <p>
+                        I'm also the founder of MH Creative Studio,
+                        a creative brand focused on AI, design, video
+                        and advertising for modern brands.
+                    </p>
+
                 </div>
+
 
                 <div class="about-highlight reveal">
-                    <span class="highlight-symbol">✳</span>
-                    <h3>My approach</h3>
-                    <p>
-                        Understand the problem. Research the audience.
-                        Create a practical solution. Improve through feedback.
-                    </p>
-                    <div class="mini-tags">
-                        <span>Creative Thinking</span>
-                        <span>AI Workflows</span>
-                        <span>Problem Solving</span>
+
+                    <div class="highlight-top">
+                        <span class="highlight-icon">✳</span>
+                        <span class="highlight-label">MY WORKING APPROACH</span>
                     </div>
+
+                    <h3>
+                        Think creatively.
+                        Build practically.
+                        Improve continuously.
+                    </h3>
+
+                    <p>
+                        I believe strong digital work starts with understanding
+                        the problem, researching the right approach and
+                        delivering a meaningful solution.
+                    </p>
+
+                    <div class="mini-tags">
+                        <span>Problem Solving</span>
+                        <span>Creative Thinking</span>
+                        <span>Research</span>
+                        <span>Innovation</span>
+                    </div>
+
                 </div>
+
             </div>
+
         </section>
 
-        <!-- EXPERIENCE -->
+
+        <!-- =====================================
+             EXPERIENCE SECTION
+        ====================================== -->
+
         <section class="section section-border" id="experience">
+
             <div class="section-heading reveal">
-                <p class="eyebrow">WHAT I BRING TO THE TABLE</p>
-                <h2>Professional <span class="gradient-text">Experience.</span></h2>
+
+                <p class="eyebrow">02 / EXPERIENCE</p>
+
+                <h2>
+                    What I do &
+                    <span class="gradient-text">what I bring.</span>
+                </h2>
+
                 <p class="section-description">
-                    Practical experience in creative production, AI-assisted
-                    workflows and social media content.
+                    My practical creative experience, technical interests
+                    and ongoing professional development.
                 </p>
+
             </div>
 
+
             <div class="experience-grid">
+
                 <article class="experience-card reveal">
+
                     <div class="card-topline">
                         <span class="experience-icon">▶</span>
                         <span class="experience-duration">2+ Years</span>
                     </div>
-                    <h3>CapCut Video Editor</h3>
+
                     <p class="experience-category">VIDEO PRODUCTION</p>
+
+                    <h3>Professional Videographer & Editor</h3>
+
                     <p>
-                        Editing short-form videos with engaging pacing, captions,
-                        transitions, effects and platform-appropriate formatting.
+                        Creating and editing engaging video content through
+                        visual storytelling, professional editing techniques
+                        and creative production workflows.
                     </p>
+
                     <ul>
-                        <li>Short-form video editing</li>
-                        <li>Captions and visual storytelling</li>
-                        <li>Vertical video formatting</li>
+                        <li>Video editing with CapCut</li>
+                        <li>Visual storytelling and pacing</li>
+                        <li>Short-form and promotional videos</li>
+                        <li>Video production and presentation</li>
                     </ul>
+
                 </article>
 
+
                 <article class="experience-card reveal">
+
                     <div class="card-topline">
                         <span class="experience-icon">◎</span>
                         <span class="experience-duration">2+ Years</span>
                     </div>
+
+                    <p class="experience-category">CONTENT AUTOMATION</p>
+
                     <h3>TikTok Automation Specialist</h3>
-                    <p class="experience-category">CONTENT WORKFLOWS</p>
+
                     <p>
-                        Building repeatable content workflows using research,
-                        AI-assisted production and structured publishing processes.
+                        Developing structured content workflows by combining
+                        content research, AI-assisted production and
+                        platform-focused publishing strategies.
                     </p>
+
                     <ul>
                         <li>Content research and planning</li>
-                        <li>AI-assisted content creation</li>
-                        <li>Titles, hooks and publishing workflows</li>
+                        <li>AI-assisted content production</li>
+                        <li>Titles, hooks and captions</li>
+                        <li>Content optimization workflows</li>
                     </ul>
+
                 </article>
 
-                <article class="experience-card reveal">
-                    <div class="card-topline">
-                        <span class="experience-icon">✳</span>
-                        <span class="experience-duration">2+ Years</span>
-                    </div>
-                    <h3>AI Graphic Designer</h3>
-                    <p class="experience-category">VISUAL DESIGN</p>
-                    <p>
-                        Developing AI-assisted visual concepts and creative assets
-                        for advertising, branding and social media communication.
-                    </p>
-                    <ul>
-                        <li>AI image prompting</li>
-                        <li>Image advertisements and graphics</li>
-                        <li>Creative concepts for digital platforms</li>
-                    </ul>
-                </article>
 
                 <article class="experience-card reveal">
+
                     <div class="card-topline">
                         <span class="experience-icon">✦</span>
+                        <span class="experience-duration">Creative Work</span>
+                    </div>
+
+                    <p class="experience-category">AI & VISUAL DESIGN</p>
+
+                    <h3>AI Video Creator & Graphic Designer</h3>
+
+                    <p>
+                        Producing creative visual concepts and AI-assisted
+                        digital assets for social media, branding
+                        and advertising.
+                    </p>
+
+                    <ul>
+                        <li>AI image and video generation</li>
+                        <li>Prompt engineering</li>
+                        <li>Creative advertisements</li>
+                        <li>Graphic design and visual concepts</li>
+                    </ul>
+
+                </article>
+
+
+                <article class="experience-card reveal">
+
+                    <div class="card-topline">
+                        <span class="experience-icon">⌘</span>
+                        <span class="experience-duration">Development</span>
+                    </div>
+
+                    <p class="experience-category">SOFTWARE ENGINEERING</p>
+
+                    <h3>Software & Web Development</h3>
+
+                    <p>
+                        Building my technical foundation through academic
+                        learning, practical projects and software
+                        development experimentation.
+                    </p>
+
+                    <ul>
+                        <li>Software requirements engineering</li>
+                        <li>Frontend web development</li>
+                        <li>HTML, CSS and JavaScript</li>
+                        <li>Android application development learning</li>
+                    </ul>
+
+                </article>
+
+
+                <article class="experience-card reveal">
+
+                    <div class="card-topline">
+                        <span class="experience-icon">⌕</span>
+                        <span class="experience-duration">Research</span>
+                    </div>
+
+                    <p class="experience-category">CONTENT & SEO</p>
+
+                    <h3>SEO & Content Researcher</h3>
+
+                    <p>
+                        Researching digital content opportunities and
+                        developing structured ideas for audience-focused
+                        content creation.
+                    </p>
+
+                    <ul>
+                        <li>SEO and keyword research</li>
+                        <li>Content research</li>
+                        <li>Audience-focused planning</li>
+                        <li>Digital content strategy</li>
+                    </ul>
+
+                </article>
+
+
+                <article class="experience-card reveal">
+
+                    <div class="card-topline">
+                        <span class="experience-icon">MH</span>
                         <span class="experience-duration">Founder</span>
                     </div>
-                    <h3>MH Creative Studio</h3>
-                    <p class="experience-category">CREATIVE BRAND</p>
+
+                    <p class="experience-category">ENTREPRENEURSHIP</p>
+
+                    <h3>Founder — MH Creative Studio</h3>
+
                     <p>
-                        Building a creative service brand focused on AI-powered
-                        visuals, advertising and digital content.
+                        Building a creative brand delivering modern
+                        visual communication and AI-powered creative
+                        services for businesses.
                     </p>
+
                     <ul>
+                        <li>Logo and graphic design</li>
                         <li>Image and video advertising</li>
-                        <li>Creative service development</li>
-                        <li>Digital content and social media</li>
+                        <li>Creative brand development</li>
+                        <li>Digital content production</li>
                     </ul>
+
                 </article>
+
             </div>
 
             <p class="experience-note">
-                Experience durations reflect my practical experience in these
-                areas, not necessarily full-time employment. Specific employers,
-                clients and project outcomes can be added when applicable.
+                Experience descriptions represent practical work,
+                creative activities and ongoing development.
+                Academic learning and independent projects are
+                distinguished from professional employment.
             </p>
+
         </section>
 
-        <!-- SKILLS -->
+
+        <!-- =====================================
+             SKILLS SECTION
+        ====================================== -->
+
         <section class="section section-border" id="skills">
+
             <div class="section-heading reveal">
-                <p class="eyebrow">MY CAPABILITIES</p>
-                <h2>Skills & <span class="gradient-text">Tools.</span></h2>
+
+                <p class="eyebrow">03 / SKILLS & EXPERTISE</p>
+
+                <h2>
+                    My professional
+                    <span class="gradient-text">toolkit.</span>
+                </h2>
+
                 <p class="section-description">
-                    A combination of creative production, AI workflows,
-                    content research and software engineering fundamentals.
+                    A multidisciplinary skill set combining software
+                    engineering, AI, creative production and digital research.
                 </p>
+
             </div>
 
+
             <div class="skills-grid">
+
                 <article class="skill-card reveal">
+
                     <span class="skill-number">01</span>
-                    <h3>Video & Content</h3>
-                    <div class="skill-tags">
-                        <span>CapCut Editing</span>
-                        <span>AI Video Creation</span>
-                        <span>Videography</span>
-                        <span>TikTok Workflows</span>
-                    </div>
-                </article>
 
-                <article class="skill-card reveal">
-                    <span class="skill-number">02</span>
-                    <h3>AI & Design</h3>
+                    <h3>Video & Creative Production</h3>
+
                     <div class="skill-tags">
-                        <span>AI Prompt Engineering</span>
-                        <span>AI Graphic Design</span>
-                        <span>Image Advertising</span>
+                        <span>Professional Videographer & Editor</span>
+                        <span>CapCut Video Editor</span>
+                        <span>AI Video Creator</span>
+                        <span>Content Creator</span>
                         <span>Video Advertising</span>
+                        <span>Visual Storytelling</span>
                     </div>
+
                 </article>
 
+
                 <article class="skill-card reveal">
-                    <span class="skill-number">03</span>
-                    <h3>Research & Marketing</h3>
+
+                    <span class="skill-number">02</span>
+
+                    <h3>AI & Graphic Design</h3>
+
                     <div class="skill-tags">
-                        <span>SEO Research</span>
-                        <span>Content Research</span>
-                        <span>Content Planning</span>
-                        <span>Social Media Management</span>
+                        <span>AI Graphic Designer</span>
+                        <span>AI Prompt Engineer</span>
+                        <span>AI Image Generation</span>
+                        <span>AI Video Generation</span>
+                        <span>Graphic Design</span>
+                        <span>Creative Advertising</span>
                     </div>
+
                 </article>
 
+
                 <article class="skill-card reveal">
-                    <span class="skill-number">04</span>
+
+                    <span class="skill-number">03</span>
+
                     <h3>Software Engineering</h3>
+
+                    <div class="skill-tags">
+                        <span>Software Requirements Engineer</span>
+                        <span>Software Engineering</span>
+                        <span>Front-End Web Developer</span>
+                        <span>Web Engineering</span>
+                        <span>Mobile App Developer</span>
+                        <span>Software Design & Architecture</span>
+                        <span>Software Construction</span>
+                    </div>
+
+                </article>
+
+
+                <article class="skill-card reveal">
+
+                    <span class="skill-number">04</span>
+
+                    <h3>Programming & Computer Science</h3>
+
                     <div class="skill-tags">
                         <span>C++</span>
                         <span>Object-Oriented Programming</span>
+                        <span>JavaScript</span>
+                        <span>HTML5</span>
+                        <span>CSS3</span>
                         <span>Database Systems</span>
                         <span>Data Structures & Algorithms</span>
                         <span>Machine Learning Fundamentals</span>
-                        <span>Requirements Engineering</span>
-                        <span>Web Engineering</span>
                     </div>
+
                 </article>
+
+
+                <article class="skill-card reveal">
+
+                    <span class="skill-number">05</span>
+
+                    <h3>Research & Digital Marketing</h3>
+
+                    <div class="skill-tags">
+                        <span>SEO Research</span>
+                        <span>Content Research</span>
+                        <span>TikTok Automation Specialist</span>
+                        <span>Content Planning</span>
+                        <span>Social Media Strategy</span>
+                        <span>Digital Advertising</span>
+                    </div>
+
+                </article>
+
+
+                <article class="skill-card reveal">
+
+                    <span class="skill-number">06</span>
+
+                    <h3>Business & Creative Leadership</h3>
+
+                    <div class="skill-tags">
+                        <span>Founder — MH Creative Studio</span>
+                        <span>Creative Direction</span>
+                        <span>Brand Development</span>
+                        <span>Visual Communication</span>
+                        <span>Project Planning</span>
+                    </div>
+
+                </article>
+
             </div>
+
 
             <div class="tools-panel reveal">
-                <h3>Tools I use</h3>
-                <p>
-                    CapCut · Visual AI tools · Prompt-based creative workflows ·
-                    VS Code · GitHub
-                </p>
-                <!-- Add other tools only when you have practical experience with them. -->
+
+                <div>
+                    <p class="eyebrow">MY WORKSPACE</p>
+                    <h3>Tools & Technologies</h3>
+                </div>
+
+                <div class="tools-list">
+                    <span>VS Code</span>
+                    <span>GitHub</span>
+                    <span>Android Studio</span>
+                    <span>CapCut</span>
+                    <span>AI Creative Tools</span>
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>C++</span>
+                </div>
+
             </div>
+
         </section>
 
-        <!-- PROJECTS -->
+
+        <!-- =====================================
+             PROJECTS SECTION
+        ====================================== -->
+
         <section class="section section-border" id="projects">
+
             <div class="section-heading reveal">
-                <p class="eyebrow">SELECTED WORK</p>
-                <h2>Projects & <span class="gradient-text">Creative Work.</span></h2>
+
+                <p class="eyebrow">04 / SELECTED PROJECTS</p>
+
+                <h2>
+                    Ideas turned into
+                    <span class="gradient-text">projects.</span>
+                </h2>
+
                 <p class="section-description">
-                    A growing collection of creative projects and future
-                    software engineering work.
+                    A selection of my software development journey,
+                    creative brand and practical digital work.
                 </p>
+
             </div>
+
 
             <div class="projects-grid">
-                <article class="project-card studio-project reveal">
-                    <div class="project-art">
-                        <span class="project-art-label">MH</span>
-                        <span class="project-art-caption">CREATIVE STUDIO</span>
+
+
+                <!-- MH CREATIVE STUDIO -->
+
+                <article class="project-card reveal">
+
+                    <div class="project-thumbnail studio-thumbnail">
+
+                        <img src="Assets/Projects/mh-monogram.jpg" alt="MH Creative Studio Monogram" class="studio-logo"
+                            loading="lazy">
+
+                        <span class="thumbnail-caption">
+                            AI · DESIGN · VIDEO · ADVERTISING
+                        </span>
+
                     </div>
+
                     <div class="project-content">
+
                         <p class="project-type">CREATIVE BRAND</p>
+
                         <h3>MH Creative Studio</h3>
+
                         <p>
-                            My creative brand for AI-powered visual concepts,
-                            image and video advertising, and digital content.
+                            My creative brand focused on AI-powered visuals,
+                            graphic design, image advertisements, video
+                            production and digital content for modern brands.
                         </p>
+
                         <div class="skill-tags">
                             <span>AI Creativity</span>
+                            <span>Visual Design</span>
                             <span>Advertising</span>
-                            <span>Content</span>
                         </div>
+
                         <a href="https://www.instagram.com/mh_creative_studio/" target="_blank"
-                            rel="noopener noreferrer" class="text-link">Explore Studio ↗</a>
+                            rel="noopener noreferrer" class="project-link">
+                            Explore Studio <span>↗</span>
+                        </a>
+
                     </div>
+
                 </article>
 
-                <article class="project-card future-project reveal">
-                    <div class="project-art future-art">
-                        <span class="future-plus">+</span>
-                        <span class="project-art-caption">IN DEVELOPMENT</span>
+
+                <!-- STUDENT GRADE CALCULATOR -->
+
+                <article class="project-card reveal">
+
+                    <div class="project-thumbnail image-thumbnail">
+
+                        <img src="Assets/Projects/student-grade-calculator.jpg"
+                            alt="Student Grade Calculator project preview" loading="lazy">
+
+                        <span class="thumbnail-caption">
+                            WEB APPLICATION
+                        </span>
+
                     </div>
+
                     <div class="project-content">
-                        <p class="project-type">COMING SOON</p>
-                        <h3>Future Projects</h3>
+
+                        <p class="project-type">WEB DEVELOPMENT</p>
+
+                        <h3>Student Grade Calculator</h3>
+
                         <p>
-                            More creative case studies, software projects and
-                            practical technical solutions will be added here.
+                            A responsive web application that calculates
+                            student percentages and grades based on subject
+                            marks, with support for adding multiple subjects.
                         </p>
+
                         <div class="skill-tags">
-                            <span>Software</span>
-                            <span>AI</span>
-                            <span>Creative Technology</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
                         </div>
-                        <span class="text-link muted-link">Work in progress</span>
+
+                        <a href="https://muhammadhamza560.github.io/student-grade-calculator/" target="_blank"
+                            rel="noopener noreferrer" class="project-link">
+                            View Live Project <span>↗</span>
+                        </a>
+
                     </div>
+
                 </article>
+
+
+                <!-- FUTURE PROJECTS -->
+
+                <article class="project-card reveal">
+
+                    <div class="project-thumbnail future-thumbnail">
+
+                        <span class="future-symbol">+</span>
+
+                        <span class="thumbnail-caption">
+                            IN DEVELOPMENT
+                        </span>
+
+                    </div>
+
+                    <div class="project-content">
+
+                        <p class="project-type">SOFTWARE DEVELOPMENT</p>
+
+                        <h3>Upcoming Software Projects</h3>
+
+                        <p>
+                            Exploring practical software solutions,
+                            frontend applications and mobile development
+                            through academic and independent projects.
+                        </p>
+
+                        <div class="skill-tags">
+                            <span>Software Engineering</span>
+                            <span>Web Development</span>
+                            <span>Android</span>
+                        </div>
+
+                        <span class="project-link muted-link">
+                            More projects coming soon
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+                <!-- FUTURE CREATIVE PROJECTS -->
+
+                <article class="project-card reveal">
+
+                    <div class="project-thumbnail future-creative-thumbnail">
+
+                        <span class="future-symbol">✦</span>
+
+                        <span class="thumbnail-caption">
+                            CREATIVE TECHNOLOGY
+                        </span>
+
+                    </div>
+
+                    <div class="project-content">
+
+                        <p class="project-type">AI & CREATIVE PRODUCTION</p>
+
+                        <h3>Upcoming Creative Work</h3>
+
+                        <p>
+                            More AI-generated visuals, promotional
+                            advertisements, video productions and
+                            creative campaigns will be showcased here.
+                        </p>
+
+                        <div class="skill-tags">
+                            <span>AI</span>
+                            <span>Graphic Design</span>
+                            <span>Video Production</span>
+                        </div>
+
+                        <span class="project-link muted-link">
+                            More creative work coming soon
+                        </span>
+
+                    </div>
+
+                </article>
+
             </div>
+
         </section>
 
-        <!-- EDUCATION -->
-        <section class="section section-border" id="education">
+
+        <!-- =====================================
+             VIDEO PORTFOLIO
+        ====================================== -->
+
+        <section class="section section-border" id="video-projects">
+
             <div class="section-heading reveal">
-                <p class="eyebrow">MY LEARNING JOURNEY</p>
-                <h2>Education & <span class="gradient-text">Development.</span></h2>
-            </div>
 
-            <div class="education-card reveal">
-                <div class="education-mark">SE</div>
-                <div>
-                    <p class="project-type">CURRENT EDUCATION</p>
-                    <h3>BS Software Engineering</h3>
-                    <p class="education-institution">
-                        City University of Science & Information Technology
-                    </p>
-                    <p class="education-institution">Peshawar, Pakistan</p>
-                    <p class="education-detail">
-                        Relevant study areas include C++, OOP, databases,
-                        data structures and algorithms, machine learning,
-                        requirements engineering and web engineering.
-                    </p>
-                </div>
-            </div>
-        </section>
+                <p class="eyebrow">05 / CREATIVE PORTFOLIO</p>
 
-        <!-- CONTACT -->
-        <section class="section contact-section section-border" id="contact">
-            <div class="contact-box reveal">
-                <p class="eyebrow">HAVE A PROJECT IN MIND?</p>
-                <h2>Let's create something <span class="gradient-text">meaningful.</span></h2>
-                <p>
-                    Interested in creative collaboration, video editing,
-                    AI-assisted design, content workflows or technology?
-                    Let's connect.
+                <h2>
+                    Video production &
+                    <span class="gradient-text">visual storytelling.</span>
+                </h2>
+
+                <p class="section-description">
+                    A showcase of my video editing, videography
+                    and creative production work.
                 </p>
 
-                <div class="hero-actions contact-actions">
-                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=xyx16804%40gmail.com&su=Professional%20Inquiry%20-%20Muhammad%20Hamza"
-                        target="_blank" rel="noopener noreferrer" class="btn btn-primary">Email Me ↗</a>
+            </div>
+
+
+            <div class="video-grid">
+
+
+                <!-- VIDEO PROJECT 1 -->
+
+                <article class="video-card reveal">
+
+                    <div class="video-thumbnail">
+
+                        <img src="Assets/Thumbnails/video-thumbnail-1.jpg" alt="First video project thumbnail"
+                            loading="lazy">
+
+                        <button type="button" class="video-play-button" data-video="Assets/Videos/video-project-1.mp4"
+                            data-poster="Assets/Thumbnails/video-thumbnail-1.jpg" aria-label="Play first video project">
+
+                            <span>▶</span>
+
+                        </button>
+
+                        <span class="video-label">
+                            VIDEO PROJECT 01
+                        </span>
+
+                    </div>
+
+                    <div class="video-info">
+
+                        <p class="project-type">VIDEO EDITING</p>
+
+                        <h3>Creative Video Project</h3>
+
+                        <p>
+                            A video production showcasing my editing,
+                            visual storytelling and creative presentation.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- VIDEO PROJECT 2 -->
+
+                <article class="video-card reveal">
+
+                    <div class="video-thumbnail">
+
+                        <img src="Assets/Thumbnails/video-thumbnail-2.jpg" alt="Second video project thumbnail"
+                            loading="lazy">
+
+                        <button type="button" class="video-play-button" data-video="Assets/Videos/video-project-2.mp4"
+                            data-poster="Assets/Thumbnails/video-thumbnail-2.jpg"
+                            aria-label="Play second video project">
+
+                            <span>▶</span>
+
+                        </button>
+
+                        <span class="video-label">
+                            VIDEO PROJECT 02
+                        </span>
+
+                    </div>
+
+                    <div class="video-info">
+
+                        <p class="project-type">CREATIVE PRODUCTION</p>
+
+                        <h3>Visual Storytelling Project</h3>
+
+                        <p>
+                            A creative production demonstrating my
+                            approach to video presentation and editing.
+                        </p>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             EDUCATION SECTION
+        ====================================== -->
+
+        <section class="section section-border" id="education">
+
+            <div class="section-heading reveal">
+
+                <p class="eyebrow">06 / EDUCATION</p>
+
+                <h2>
+                    My academic
+                    <span class="gradient-text">foundation.</span>
+                </h2>
+
+            </div>
+
+
+            <div class="education-card reveal">
+
+                <div class="education-mark">
+                    CUSIT
                 </div>
+
+                <div class="education-content">
+
+                    <p class="project-type">UNDERGRADUATE EDUCATION</p>
+
+                    <h3>
+                        Bachelor of Science in Software Engineering
+                    </h3>
+
+                    <p class="education-institution">
+                        City University of Science & Information Technology
+                        (CUSIT), Peshawar, Pakistan.
+                    </p>
+
+                    <p class="education-detail">
+                        Academic learning in programming, software
+                        engineering, requirements engineering, database
+                        systems, web engineering and computer science.
+                    </p>
+
+                    <div class="skill-tags education-tags">
+                        <span>Software Engineering</span>
+                        <span>Programming</span>
+                        <span>Web Engineering</span>
+                        <span>Computer Science</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             CONTACT SECTION
+        ====================================== -->
+
+        <section class="section contact-section section-border" id="contact">
+
+            <div class="contact-box reveal">
+
+                <p class="eyebrow">07 / GET IN TOUCH</p>
+
+                <h2>
+                    Have an idea?
+                    <span class="gradient-text">Let's build something meaningful.</span>
+                </h2>
+
+                <p>
+                    Interested in creative projects, video production,
+                    AI-powered content, digital design or software
+                    development? I'd love to connect and explore
+                    opportunities to work together.
+                </p>
+
+                <div class="contact-actions">
+
+                    <a href="https://www.linkedin.com/in/muhammad-hamza-1a7740402/" target="_blank"
+                        rel="noopener noreferrer" class="btn btn-primary">
+                        Connect on LinkedIn ↗
+                    </a>
+
+                    <a href="https://github.com/muhammadhamza560" target="_blank" rel="noopener noreferrer"
+                        class="btn btn-secondary">
+                        Explore GitHub
+                    </a>
+
+                </div>
+
 
                 <div class="social-links">
-                    <a href="https://www.linkedin.com/in/muhammad-hamza-1a7740402/" target="_blank"
-                        rel="noopener noreferrer">LinkedIn ↗</a>
+
+                    <a href="https://www.instagram.com/mh_creative_studio/" target="_blank" rel="noopener noreferrer">
+                        Instagram ↗
+                    </a>
+
+                    <a href="https://www.tiktok.com/@mh_creative_studio" target="_blank" rel="noopener noreferrer">
+                        TikTok ↗
+                    </a>
+
                     <a href="https://facebook.com/profile.php?id=61593624444556" target="_blank"
-                        rel="noopener noreferrer">Facebook ↗</a>
-                    <a href="https://github.com/muhammadhamza560" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
-                    <a href="https://www.instagram.com/mh_creative_studio/" target="_blank"
-                        rel="noopener noreferrer">Instagram ↗</a>
-                    <a href="https://www.tiktok.com/@mh_creative_studio" target="_blank"
-                        rel="noopener noreferrer">TikTok ↗</a>
+                        rel="noopener noreferrer">
+                        Facebook ↗
+                    </a>
+
                 </div>
+
             </div>
+
         </section>
+
     </main>
 
-    <!-- FOOTER -->
+
+    <!-- =====================================
+         VIDEO PLAYER DIALOG
+    ====================================== -->
+
+    <dialog id="videoDialog" class="video-dialog">
+
+        <div class="video-dialog-content">
+
+            <button type="button" id="closeVideo" class="video-close" aria-label="Close video">
+                ✕
+            </button>
+
+            <video id="videoPlayer" controls playsinline preload="metadata">
+            </video>
+
+        </div>
+
+    </dialog>
+
+
+    <!-- =====================================
+         FOOTER
+    ====================================== -->
+
     <footer class="footer">
-        <a class="brand" href="#home">MH<span>.</span></a>
-        <p>Designed with purpose by Muhammad Hamza.</p>
-        <p>© <span id="currentYear"></span> Muhammad Hamza. All rights reserved.</p>
+
+        <a href="#home" class="brand">
+            MH<span>.</span>
+        </a>
+
+        <p>
+            Designed & developed by Muhammad Hamza.
+        </p>
+
+        <p>
+            © <span id="currentYear"></span>
+            Muhammad Hamza. All rights reserved.
+        </p>
+
     </footer>
 
-    <!-- Small interactions: mobile navigation, reveal animations, current year -->
-    <script>
-        // Mobile navigation toggle
-        const menuToggle = document.getElementById("menuToggle");
-        const navLinks = document.getElementById("navLinks");
 
-        menuToggle.addEventListener("click", () => {
-            const isOpen = navLinks.classList.toggle("active");
-            menuToggle.setAttribute("aria-expanded", isOpen);
-            menuToggle.setAttribute(
-                "aria-label",
-                isOpen ? "Close navigation menu" : "Open navigation menu"
-            );
-        });
+    <!-- SEPARATE JAVASCRIPT FILE -->
+    <script src="script.js" defer></script>
 
-        // Close the mobile menu after selecting a section
-        navLinks.querySelectorAll("a").forEach(link => {
-            link.addEventListener("click", () => {
-                navLinks.classList.remove("active");
-                menuToggle.setAttribute("aria-expanded", "false");
-            });
-        });
-
-        // Animate sections when they enter the viewport
-        const revealItems = document.querySelectorAll(".reveal");
-
-        if ("IntersectionObserver" in window) {
-            const observer = new IntersectionObserver((entries, obs) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        entry.target.classList.add("visible");
-                        obs.unobserve(entry.target);
-                    }
-                });
-            }, { threshold: 0.12 });
-
-            revealItems.forEach(item => observer.observe(item));
-        } else {
-            revealItems.forEach(item => item.classList.add("visible"));
-        }
-
-        // Automatically display the current year
-        document.getElementById("currentYear").textContent =
-            new Date().getFullYear();
-    </script>
 </body>
 
 </html>
